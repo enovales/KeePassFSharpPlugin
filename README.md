@@ -1,9 +1,10 @@
 # KeePassFSharpPlugin
 
-This is an example project for building a [KeePass](https://keepass.info) 2.x plugin with F#. The repository  
-contains a plugin project (KeePassFSharpPlugin), plus a separate test project (KeePassFSharpPluginTests), 
-which is driven by the [Expecto testing framework](https://github.com/haf/expecto). The dependencies are 
-managed with [Paket](https://fsprojects.github.io/Paket/). The idea here is that you could test all of the 
+This is an example project for building a [KeePass](https://keepass.info) 2.x plugin with 
+[F#](https://fsharp.org). The repository contains a plugin project (KeePassFSharpPlugin), plus 
+a separate test project (KeePassFSharpPluginTests), which is driven by the 
+[Expecto testing framework](https://github.com/haf/expecto). The dependencies are managed with 
+[Paket](https://fsprojects.github.io/Paket/). The idea here is that you could test all of the 
 non-UI code of the plugin, using nice F#-native tooling, and then that code would interface with a thin 
 layer over the KeePass plugin API.
 
