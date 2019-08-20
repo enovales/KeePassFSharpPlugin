@@ -1,4 +1,4 @@
-﻿namespace KeePassFSharpTest
+﻿namespace KeePassFSharpPlugin
 
 open KeePass.Plugins
 open System
@@ -6,7 +6,7 @@ open System.Windows.Forms
 
 type KeePassFSharpPluginExt() = 
     inherit Plugin()
-    let mutable private m_host = null
+    let mutable m_host = null
     override this.Initialize(host: IPluginHost): bool = 
         if (host = null) then
             false
